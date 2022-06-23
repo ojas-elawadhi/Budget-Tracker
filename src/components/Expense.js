@@ -10,9 +10,10 @@ const Expense = () => {
 
 	return (
 		<div class='alert alert-primary p-4'>
-			<span>Spent so far: £{total}</span>
+			<span>Spent so far: ${total}</span>
 		</div>
 	);
 };
 
 export default Expense;
+
